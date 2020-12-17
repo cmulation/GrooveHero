@@ -75,31 +75,32 @@ class UpdateProfileForm extends Component {
             <Modal
                 {...this.props}
                 size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
-                <Modal.Header closeButton>
+                <Modal.Header closeButton id="update-profile-form-header">
                 <Modal.Title id="contained-modal-title-vcenter">Edit profile</Modal.Title>
                 </Modal.Header>
-                <Modal.Body>                                         
-                    <label>First name:</label>
-                    <input type="text" id="fname-form" name="fname" defaultValue={this.props.firstName}/><br></br>
-                    <label>Last name:</label>
-                    <input type="text" id="lname-form" name="lname" defaultValue={this.props.lastName} /><br></br>
+                <Modal.Body>
+                    <label >First name:</label>
+                    <input type="text" id="fname-form" className="fieldsInUpdateForm" name="fname" defaultValue={this.props.firstName}/>
+                    <label >Last name:</label>
+                    <input type="text" id="lname-form" className="fieldsInUpdateForm" name="lname" defaultValue={this.props.lastName} />
                     <label>Age:</label>
-                    <input type="text" id="age-form" name="age" defaultValue={this.props.age}/><br></br>
+                    <input type="text" id="age-form" className="fieldsInUpdateForm" name="age" defaultValue={this.props.age}/>
+
                     <label>Music styles preferences:</label><br></br>
-                    <label>rock</label>
-                    <input type="checkbox" id="rock-form" name="rock" defaultChecked />
-                    <label>hip-hop</label>
-                    <input type="checkbox" id="hip-hop-form" name="hip-hop"/>
-                    <label>pop</label>
-                    <input type="checkbox" id="pop-form" name="pop"/>
-                    <label >country</label>
-                    <input type="checkbox" id="country-form" name="country" />
-                    <input type="file" id="avatar-upload-form" name="avatar" onChange={this.handleSubmit} />
+                    <label className="edit-profile-form-labels">rock</label>
+                    <input className="checkboxes" type="checkbox" id="rock-form" name="rock" defaultChecked />
+                    <label className="edit-profile-form-labels">hip-hop</label>
+                    <input className="checkboxes" type="checkbox" id="hip-hop-form" name="hip-hop"/>
+                    <label className="edit-profile-form-labels">pop</label>
+                    <input className="checkboxes" type="checkbox" id="pop-form" name="pop"/>
+                    <label className="edit-profile-form-labels" >country</label>
+                    <input className="checkboxes" type="checkbox" id="country-form" name="country" />
+                    <input type="file" id="avatar-upload-field" name="avatar" onChange={this.handleSubmit} />
                                  
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button variant="danger" onClick={this.props.onHide}>Close</Button>
-                    <Button variant="success" onClick={() => this.handleSubmit()}>Submit</Button>
+                    <Button className="update-profile-btns" id="close-btn" onClick={this.props.onHide}>Close</Button>
+                    <Button className="update-profile-btns" id="submit-btn" onClick={() => this.handleSubmit()}>Submit</Button>
                 </Modal.Footer>
             </Modal>                
         );
