@@ -1,0 +1,144 @@
+.user-profile-info {
+    background-color: white;
+}
+#background {
+    height: 90%;
+    width: 70%;
+    background-color:gray;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #groovehero-logo {
+        animation: App-logo-spin infinite 10s linear;
+        height: 50px;
+        width: 50px;
+    }
+}
+#app-name {
+    padding-left: 10px;
+    font-family: Verdana
+}
+
+#my-acc-label {
+    text-align: left;
+    font-size: 35px;
+    font-family: "OCR A";
+}
+
+.groovehero-header {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.user-info {
+  background-color: white;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.groovehero-header, .user-info {
+    display: block;
+}
+.labels {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-family: "OCR A";
+}
+
+.user-info-fields {
+    font-size: 15px;
+    outline: 4px solid black;
+    width: 200px;
+    padding: 6px;
+    display: block;
+    cursor: default;
+    font-family: "OCR A";
+}
+
+#user-avatar {
+    width: 150px;
+}
+
+#edit-btn {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-image: url(media/edit_btn_image.png);
+    float: right;
+}
+
+.app-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#tabs {
+    padding-top: 150px;
+    outline: dotted;
+    font-family: "OCR A";
+}
+
+.tab-list {
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    font-family: "OCR A";
+}
+
+.tab-list-item {
+    display: inline-block;
+    list-style: none;
+    margin-bottom: -1px;
+    padding: 0.5rem 0.75rem;
+    cursor:pointer;
+}
+
+.tab-list-active {
+    background-color: white;
+    border: solid #ccc;
+    border-width: 1px 1px 0 1px;
+}
+
+.my-styles {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.user-info, .my-styles {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.playback-control, .favorite-style, .frequent-style {
+    list-style: none;
+    padding-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.my-recordings{
+    list-style: none;
+    background-color: rgba(227, 227, 227, 0.9);
+}
+
+.covers{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding-right: 20px;
+}
+
+
