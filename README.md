@@ -1,10 +1,10 @@
 # GROOVEHero - mixing audio tracks app
 
-This fun team project was part of the Music Proramming module in Computer Science and Software Engineering course in Maynooth University.
+This fun team project was part of the Music Proramming module in Computer Science and Software Engineering cours.
+
 It's a web-based application built using **REACT** which allows users to mix different beats and audio samples, experiment with various styles, record and save their tracks. 
 It also has some additional features, like applying audio effects on music tracks.
 
-<img src= "https://github.com/cmulation/GrooveHero/blob/main/tech_stack.png" width="450" height="260"/>
 
 **Agile** approach was used throughout the development of this project to help with managing tasks and time efficiently.
 This included but was not limited to SCRUM poker, user story map, sequence diagram, use case diagram, and UML diagram.
