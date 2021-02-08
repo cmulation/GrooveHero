@@ -1,6 +1,6 @@
 # GROOVEHero - audio mixing web app
 
-This fun team project was part of the Music Proramming module in Computer Science and Software Engineering cours.
+This fun team project was part of the Music Proramming module in Computer Science and Software Engineering course.
 
 It's a web-based application built using **REACT** which allows users to mix different beats and audio samples, experiment with various styles, record and save their tracks. 
 It also has some additional features, like applying audio effects on music tracks.
