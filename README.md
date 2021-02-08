@@ -17,7 +17,7 @@ Below is a short summary of my contribution to the project starting from the GUI
 
 <hr>
 
-This is the user profile part of the application which I developed using ReactJS. It contains user details, user recordings, frequently used styles and favorite styles.
+This is the user profile part of the application which I developed using **REACT**. It contains user details, user recordings, frequently used styles and favorite styles.
 
 <img src= "https://github.com/cmulation/GrooveHero/blob/main/s1.png" width="886" height="909"/>
 <hr>
