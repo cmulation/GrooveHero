@@ -1,4 +1,4 @@
-# GROOVEHero - mixing audio tracks app
+# GROOVEHero - audio mixing web app
 
 This fun team project was part of the Music Proramming module in Computer Science and Software Engineering cours.
 
